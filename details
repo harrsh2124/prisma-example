@@ -1,0 +1,67 @@
+# App Settings
+APP_NAME='Salon'
+APP_ENV='local'
+APP_URL='http://localhost:8000'
+ADMIN_PANEL_URL='http://localhost:8080'
+EMAIL_ADMIN_PANEL_URL='http://localhost:8080'
+APP_PORT=8000
+CORS_AVAILABLE_LINKS='*' # Add either * or comma separated strings
+
+# API Configurations
+API_PREFIX='/api/v1'
+API_RATE_LIMIT=100
+PAGINATION_LIMIT=10
+USER_UPLOADED_CONTENT_PATH='/uploads'
+
+# Database
+DB_CONNECTION='mysql'
+# DB_USERNAME='root'
+# DB_PASSWORD='root'
+# DB_HOST='localhost'
+DB_USERNAME='harrsh'
+DB_PASSWORD='harrsh2124'
+DB_HOST='43.204.110.66'
+# DB_USERNAME='salon'
+# DB_PASSWORD='nQVdQsU9&F&bt%&h'
+# DB_HOST='3.28.112.26'
+DB_PORT=3306
+DB_DATABASE='salon'
+DATABASE_URL='${DB_CONNECTION}://${DB_USERNAME}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}?schema=public'
+
+# Auth
+JWT_SECRET='L1MNW@Pe-%*1;SDC?-QoHHL/'
+
+# Redis
+REDIS_HOST=52.66.208.12
+REDIS_USERNAME=
+REDIS_PASSWORD=
+REDIS_PORT=6379
+
+Mailer Configuration
+MAIL_HOST='smtp.gmail.com'
+MAIL_PORT=587
+MAIL_USERNAME='dev.server.salon@gmail.com'
+MAIL_PASSWORD='xdpatntyelenubxc'
+# MAIL_USERNAME='pnsaloncon@gmail.com'
+# MAIL_PASSWORD='qdvvfyekqphkkofv'
+# MAIL_USERNAME="phpdeveloper7019@gmail.com"
+# MAIL_PASSWORD="zlljaydimwsxkrhy"
+
+# MAIL_HOST='localhost'
+# MAIL_PORT=1025
+# MAIL_USERNAME=null
+# MAIL_PASSWORD=null
+
+MAIL_FROM_ADDRESS='Salon <phpdeveloper7019@gmail.com>'
+MAIL_ENCRYPTION=null
+MAIL_FROM_NAME='${APP_NAME}'
+
+#AWS
+AWS_ACCESS_KEY_ID='AKIAQ74DABSCS3HRUUBL'
+AWS_SECRET_ACCESS_KEY='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'
+AWS_DEFAULT_REGION='me-central-1'
+AWS_BUCKET='salon-dev-bucket'
+AWS_FOLDER='assets'
+
+# Node Env
+# NODE_ENV='production'
